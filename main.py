@@ -10,7 +10,7 @@ bot = telebot.TeleBot(API_TOKEN)
 
 server = Flask(__name__)
 TELEBOT_URL = 'telebot_webhook/'
-BASE_URL = 'https://example-telebot.herokuapp.com/'
+BASE_URL = 'https://tg-shedule-bot.herokuapp.com/'
 
 MONGODB_URI = os.environ['MONGODB_URI']
 
